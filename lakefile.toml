@@ -1,0 +1,10 @@
+name = "practise-lean"
+version = "0.1.0"
+defaultTargets = ["practise-lean"]
+
+[[lean_lib]]
+name = "PractiseLean"
+
+[[lean_exe]]
+name = "practise-lean"
+root = "Main"
