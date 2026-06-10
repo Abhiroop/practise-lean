@@ -8,3 +8,8 @@ name = "PractiseLean"
 [[lean_exe]]
 name = "practise-lean"
 root = "Main"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+version = "git#v4.18.0"
