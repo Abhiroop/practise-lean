@@ -2,6 +2,8 @@ import Mathlib.Data.Int.Basic
 
 set_option autoImplicit false
 
+namespace Chap1
+
 theorem one_plus_one : 1 + 1 = 2 := by
   rfl
 
@@ -21,3 +23,5 @@ opaque f : ℤ → ℤ
 opaque g : ℤ → ℤ → ℤ
 #check fun x : ℤ ↦ g (f (g a x)) (g x b)
 #check fun x ↦ g (f (g a x)) (g x b)
+
+end Chap1
